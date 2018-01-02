@@ -2,6 +2,7 @@
   "name": "seed-project",
   "version": "0.0.0",
   "license": "MIT",
+  "main": "server.conf.js",
   "scripts": {
     "ng": "ng",
     "test": "ng test",
@@ -9,8 +10,7 @@
     "e2e": "ng e2e",
     "build": "ng build --aot -prod",
     "postinstall": "ng build --aot -prod",
-    "start": "ng serve --aot --proxy-config server.conf.js"
-
+    "start": "ng serve"
   },
   "private": true,
   "dependencies": {
@@ -31,7 +31,6 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-  
     "@angular/language-service": "^4.2.4",
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
